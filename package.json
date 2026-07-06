@@ -1,0 +1,26 @@
+{
+  "name": "@dz-ssbm/sys",
+  "version": "0.0.7",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "husky",
+    "test": "tsx --test"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.0",
+    "husky": "^9.1.7",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "env-paths": "^4.0.0"
+  }
+}
